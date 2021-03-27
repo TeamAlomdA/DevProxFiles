@@ -97,7 +97,7 @@ DevProxTEAM =  "ٰوينۨہهۂَ خۡل احۡصرهۂَ 𖠙 😹♥️"
 Dev_Abs(msg.chat_id_, msg.id_, 1, DevProxTEAM, 1, 'md') 
 return false
 end
-if text == 'سورس عبس' or text == 'سورس بروكس' or text == 'سورس ديف بروكس' or text == 'سورس زربه' or text == 'السورس زربه' or text == 'سورس عاوي' or text == 'السورس عاوي' then 
+if text == 'سورس ايفن' or text == 'سورس العمده' or text == 'سورس سلطان' or text == 'سورس زربه' or text == 'سورس افين' or text == 'سورس عاوي' or text == 'السورس عاوي' then 
 DevProxTEAM =  "لُِآ سوورس خآلُِتڪ دِي لُِڪ 𖠙 😒🔪" 
 Dev_Abs(msg.chat_id_, msg.id_, 1, DevProxTEAM, 1, 'md')
 return false
