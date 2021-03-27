@@ -16,7 +16,7 @@ Time = DevAbs:get(DevProx.."Abs:AutoFile:Time")
 if Time then 
 if Time ~= os.date("%x") then 
 local list = DevAbs:smembers(DevProx..'Abs:Groups') 
-local BotName = (DevAbs:get(DevProx.."Abs:NameBot") or 'بروكس')
+local BotName = (DevAbs:get(DevProx.."Abs:NameBot") or 'عمده')
 local GetJson = '{"BotId": '..DevProx..',"BotName": "'..BotName..'","GroupsList":{'  
 for k,v in pairs(list) do 
 LinkGroups = DevAbs:get(DevProx.."Abs:Groups:Links"..v)
